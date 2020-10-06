@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family='Tisa'"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Dog Arena</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <!-- <img src="./img/logoDog.png" alt=""> -->
+      <a class="navbar-brand logo" href="#">DogArena</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#dogBreed">Breed</a>
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Caurosel ----------->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./img/puppy.jpg" class=" w-100" alt="...">
+            <div class="carousel-content puppy">
+              <h1>How Cute</h1>
+            </div>
+            <div class="carousel-content puppy-black">
+              <h1>Am I<span> ? </span></h1>
+            </div>
+          </div>
+
+          <div class="carousel-item  ">
+              <img src="./img/nose.jpg" class=" w-100" alt="...">
+              <div class="carousel-content brownie">
+                <h1>COOL</h1>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+              <img src="./img/dogRail.jpg" class=" w-100" alt="...">
+              <div class="carousel-content">
+                <h1>Friends</h1>
+                <h1>Till  Eternity</h1>
+              </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div> <!-- /Caurosel ----------->
+
+    <!-- About Dog ----------->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+              <h3 class="text-center text-muted">Do Your Dogs Understand What They’re Hearing?</h3>
+              <p>
+                  Two studies, one published in the journal Current Biology and the other in Science, conclude that the answer is yes! Your dog might not understand everything you say, but he listens and pays attention similar to the way humans do. The researchers discovered that dogs — like humans — respond not only to the words we say to them, but also to the emotional tone of our voices.
+              </p>            
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+              <h3 class="text-center text-muted">Fun Facts About Dogs </h3>
+              <ul class="list-group">
+                  <li class="list-group-item"> Dogs noses are wet to help absorb scent chemicals</li>
+                  <li class="list-group-item">A Bloodhound’s sense of smell can be used as evidence in court</li>
+                  <li class="list-group-item">A Greyhound could beat a Cheetah in a long distance race</li>
+                  <li class="list-group-item">Dogs have three eyelids</li>
+                  </ul>
+          </div>
+        </div>
+    </div> <!-- /About Dog ---------->
+
+    <!-- Dog API---------->
+    <div id="dogBreed" class="col-md-8 mx-auto">
+      <div class="container breed mt-4" >
+        <h4 class="text-center text-muted" > Check Out Dogs Image By Selecting Their Breed</h4>
+          <div class="input-group my-4">
+            <select class="custom-select" id="inputGroupSelect01">
+              <!-- <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option> -->
+            </select>
+          </div>
+        <div class="breed-image mb-3 mx-auto" id="image">
+          <!-- <img src="./img/catDog.jpg" alt=""> -->
+        </div>
+      </div> <!-- Dog API---------->
+    </div>
+        
+
+    <!-- schedule ----------->
+
+    <div class="container">
+      <h3 class=" text-center mb-4 text-muted">A Typical Daily Routine For A Dog Or Puppy</h3>
+
+      <ul class="list-group" id="routine">
+        <li class="list-group-item" id="seven" >
+          <div class="d-flex justify-content-between">
+            <span class="badge badge-pill badge-info p-2">07:00 - 07:29</span>
+          </div>
+          <p class="mb-1">Dogs like to go to the toilet as soon as they wake up, so make sure that you go outside with him as soon as you come downstairs. Introduce a bit of playtime once he has done his business, and maybe bring a couple of his favourite toys out with you to keep his attention</p>
+        </li>
+        <li class="list-group-item" id="seven-thirty">
+          <div class="d-flex justify-content-between">
+            <span class="badge badge-pill badge-info p-2">07:30 - 07:59</span>
+          </div>
+          <p class="mb-1"> If you have decided to feed your dog two meals a day, this is the perfect time to give him his breakfast. This is also the best time to feed your dog his first meal of the day.</p>
+        </li>
+        <li class="list-group-item" id="eight">
+          <div class="d-flex justify-content-between ">
+            <span class="badge badge-pill badge-info p-2">08.00 - 08:59</span>
+          </div>
+          <p class="mb-1"> About half an hour after your dog has finished eating, take him outside for a brisk walk and another opportunity to go to the toilet. Typically dogs like to go to the toilet between 10 and 30 minutes after they have eaten. Adult dogs are better at holding it in, but puppies can really struggle.</p>
+        </li>
+        <li class="list-group-item" id="nine">
+          <div class="d-flex justify-content-between">
+            <span class="badge badge-pill badge-info p-2">09.00 - 12:59 </span>
+          </div>
+          <p class="mb-1">This is when you either allow your dog to settle and rest just before you leave for work, or allow him to explore and amuse himself with some interactive toys as you get things done.</p>
+        </li>
+        <li class="list-group-item" id="thirteen">
+          <div class="d-flex justify-content-between">
+            <span class="badge badge-pill badge-info p-2">13.00 - 13:29</span>
+          </div>
+          <p class="mb-1">Ideally, most dogs would love for you to return home during your lunch break so that they can be let out to go to the toilet and spend some quality time exercising, playing and bonding with you. Replace your dog’s water for a fresh clean bowl. If you have a puppy, this is the best time to give him his midday meal.</p>
+        </li>
+        <li class="list-group-item" id="thirteen-thirty">
+          <div class="d-flex justify-content-between">
+            <span class="badge badge-pill badge-info p-2">13.30 - 16:59</span>
+          </div>
+          <p class="mb-1">Before you head back to work, make sure that you take your dog outside to relieve himself, otherwise you might be presented with a little treat when you arrive home. Encourage your dog to use some energy by introducing some play (and training if you have enough time), and then invite him back inside to calm down and rest - a crate is the most effective way of teaching a dog to calm down after exercise. To find out how to correctly crate train a dog or puppy follow this link to our crate training section</p>
+        </li>
+        <li class="list-group-item" id="seventeen">
+          <div class="d-flex justify-content-between" > 
+            <span class="badge badge-pill badge-info p-2">17.00 - 16:59</span>
+          </div>
+          <p class="mb-1">As soon as your return home from work, offer your dog a fresh, clean bowl of water. Now is also the best time to give your puppy or older dog his evening meal. Shortly after he has finished eating, take him outside to use all of the energy he has built up throughout the day. You can use this time to do some training - training to fetch, heel, come/recall, sit, stay, lie down.</p>
+        </li>
+        <li class="list-group-item" id="nineteen">
+            <div class="d-flex justify-content-between" >
+              <span class="badge badge-pill badge-info p-2">19.00 - 23:59</span>
+            </div>
+            <p class="mb-1"> Your dog will want to relieve himself one more time before he goes to bed. Take him outside to go to the toilet, but don’t offer any play. You dont want to get him too excited, otherwise you might struggle to get him to settle for bedtime. As you invite your pup back inside, reward calm behaviour so that he knows that it is time to rest. The most effective method of teaching a dog to calm or settle is crate training.</p>
+          </li>
+      </ul><!-- /schedule ------------->
+
+    </div>
+
+    
+
+  
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- SCRIPT -->
+    <script src="./js/script.js"></script>
+    <script src="../server.js"></script>
+</body>
+</html>

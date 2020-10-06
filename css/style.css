@@ -1,0 +1,214 @@
+.logo {
+  font-family: "Tangerine";
+  font-weight: 50;
+  font-size: 100px;
+}
+
+#image p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.fetch {
+  display: block;
+}
+
+.dogs img {
+  max-width: 100%;
+  max-height: 290px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  padding-top: 56px;
+}
+
+p {
+  font-size: 14.5px;
+  line-height: 22px;
+}
+
+li {
+  line-height: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+/*------- Carousel ------------*/
+.display-4 {
+  font-size: 20px;
+}
+
+.carousel-content {
+  position: absolute;
+}
+
+.puppy h1,
+.puppy-black h1 {
+  font-size: 25px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.puppy {
+  bottom: 70%;
+  left: 2%;
+}
+.puppy h1 {
+  color: #c73a3a;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.puppy-black {
+  bottom: 30%;
+  right: 5%;
+}
+.puppy-black h1 {
+  letter-spacing: 2px;
+}
+.puppy-black span {
+  color: #c73a3a;
+}
+
+.brownie {
+  bottom: 1%;
+  left: 25%;
+}
+.brownie h1 {
+  letter-spacing: 20px;
+}
+
+.carousel {
+  margin-top: 56px;
+}
+
+/*-- Dog API----------*/
+.breed {
+  border: 1px rgba(226, 221, 221, 0.938) solid;
+  border-radius: 10px;
+}
+.breed h3 {
+  margin-top: 15px;
+}
+
+.breed-image img {
+  width: 100%;
+}
+
+#inputGroupSelect01 {
+  text-transform: capitalize;
+}
+
+/*-- /Dog API----------*/
+@media (min-width: 576px) {
+  p,
+li {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  /*-- Carousel----------*/
+  .puppy h1,
+.puppy-black h1 {
+    letter-spacing: 4px;
+    font-size: 2em;
+  }
+
+  .brownie {
+    left: 30%;
+  }
+  .brownie h1 {
+    letter-spacing: 50px;
+    font-weight: 600;
+  }
+
+  /*-- Carousel----------*/
+}
+@media (min-width: 768px) {
+  /*-- Carousel----------*/
+  .puppy h1,
+.puppy-black h1 {
+    letter-spacing: 5px;
+    font-size: 2.5em;
+  }
+
+  .brownie {
+    left: 33%;
+    bottom: 3%;
+  }
+  .brownie h1 {
+    letter-spacing: 50px;
+    font-weight: 600;
+  }
+
+  /*-- Carousel----------*/
+}
+@media (min-width: 992px) {
+  p,
+li {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  /*-- Carousel----------*/
+  .carousel-item {
+    height: 600px;
+  }
+
+  .puppy h1,
+.puppy-black h1 {
+    letter-spacing: 5px;
+    font-size: 3em;
+  }
+
+  .puppy {
+    left: 5%;
+  }
+  .puppy-black {
+    right: 10%;
+  }
+
+  .brownie {
+    left: 33%;
+    bottom: 3%;
+  }
+  .brownie h1 {
+    letter-spacing: 60px;
+    font-weight: 600;
+    font-size: 3em;
+  }
+
+  /*-- Carousel----------*/
+  #image p {
+    font-size: 20px;
+  }
+  #image img {
+    height: 500px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  /*-- Carousel----------*/
+  .brownie {
+    left: 35%;
+    bottom: 3%;
+  }
+  .brownie h1 {
+    letter-spacing: 60px;
+    font-weight: 700;
+    font-size: 4em;
+    color: white;
+  }
+
+  /*-- Carousel----------*/
+}
+
+/*# sourceMappingURL=style.css.map */

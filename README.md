@@ -1,7 +1,5 @@
 # Dog-Api
-Manipulated Dog API from https://dog.ceo
-
-Manipulated API using VANILLA JAVACRIPT
+Manipulated API using VANILLA JAVACRIPT  ( https://dog.ceo )
 
 Features
 
